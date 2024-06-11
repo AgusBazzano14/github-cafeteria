@@ -1,0 +1,71 @@
+/*portada locales*/
+main {
+    
+    .local-titulo {
+        font-family: "poppins";
+        font-size: 30px;
+        color: aliceblue;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .local-p {
+        font-family: "poppins";
+        font-size: 18px;
+        color: aliceblue;
+        padding: 7px;
+        text-align: center;
+    }
+}
+
+/*seccion locales*/
+.thumbnails {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+            
+        .box {
+            display: flex;
+            text-align: center;
+            margin: 0 1em 0 1em;
+            padding-top: 2em;
+            flex-direction: column;
+
+        }
+
+        .box-content {
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 10px;
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .h-costa {
+            font-family: "poppins";
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            color: aliceblue;
+            margin-left: 10px;
+
+
+        }
+
+        .p-costa {
+            font-family: "poppins";
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            color: aliceblue;
+            margin-left: 10px;
+
+        
+        }
+
+}
+

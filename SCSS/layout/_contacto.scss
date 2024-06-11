@@ -1,0 +1,77 @@
+/*contacto*/
+main {
+    .h-contacto {
+        font-family: "poppins";
+        font-size: 30px;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .h-informacion {
+        font-family: "poppins";
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-weight: lighter;
+    }
+
+    .redes {
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        display: flex;
+        border: 10px solid white;
+        background-image: linear-gradient(rgb(25, 190, 255), rgb(183, 255, 183));
+
+        #ig {padding: 20px;
+        }
+        
+        #tiktok {
+            padding: 20px;
+        }
+        
+        #wpp {
+            padding: 20px;
+        }
+        
+    }
+    
+    #preguntas {
+        text-align: center;
+        font-family: "poppins";
+        font-size: 18px;
+        color: aliceblue;
+        background-color: #008cff;
+    
+    }
+    .accordion-header {
+        font-family: "poppins";
+       }
+    .accordion-body {
+        font-family: "poppins";
+        font-size: smaller;
+    }
+
+    .newsletter {
+        font-size: 20px;
+        font-family: "poppins";
+        color: white;
+        background-color: rgb(0, 145, 255);
+        padding: px;
+        align-items: center;
+        margin: 30px;
+        border-radius: 80px;
+        text-align: center;
+        :hover { color: orange;}
+            a {
+                color: aliceblue;
+                text-decoration: dotted;
+            }
+        }
+}

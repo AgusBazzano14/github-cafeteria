@@ -1,0 +1,15 @@
+.portada {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 /.5), rgb( 0 0 0 /.5)), url(../imagenes/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: "poppins";
+
+}

@@ -1,0 +1,36 @@
+/*productos*/
+
+main {
+
+    .productos {
+        font-family: "poppins";
+        font-size: 30px;
+        color: aliceblue;
+        display: flex;
+        padding: 10px;
+        margin: 30px;
+    }
+    
+    .card-productos {
+        padding: 10px;
+        margin: 20px;
+
+        h5 {
+            color: rgb(27, 153, 255);
+            font-weight: bolder;
+            text-decoration-line: underline;
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+
+        .card-text {
+            font-family: "poppins";
+            font-size: 15px;
+            background-color: white;
+            color: rgb(134, 134, 113);
+            text-align: left;
+
+        }
+    }
+    
+}
