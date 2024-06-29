@@ -1,5 +1,5 @@
 .navbar {
-    background-color:rgb(27, 153, 255);
+    background-color:rgb(213, 206, 158);
     margin-top: 18px;
     font-family: "poppins";
     --bs-navbar-color: azure;
@@ -12,4 +12,29 @@
         }
   }
   
+.marquee {
+
+    color: aliceblue;
+    font-family: "roboto";
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 15px;
+}
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
   

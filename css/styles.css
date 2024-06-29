@@ -29,11 +29,11 @@
 }
 
 body {
-  background-color: rgb(46, 45, 45);
+  background-color: rgb(7, 4, 68);
 }
 
 .navbar {
-  background-color: rgb(27, 153, 255);
+  background-color: rgb(213, 206, 158);
   margin-top: 18px;
   font-family: "poppins";
   --bs-navbar-color: azure;
@@ -46,6 +46,35 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.marquee {
+  color: aliceblue;
+  font-family: "roboto";
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  padding-left: 10px;
+  display: flex;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 .portada {
   display: flex;
   justify-content: left;
@@ -183,11 +212,12 @@ main .card-productos .card-text {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  font-family: "times new romans";
+  font-family: "roboto";
   font-size: 18px;
   font-weight: bold;
   color: black;
   text-align: center;
+  align-items: center;
   background-color: rgb(4, 121, 255);
 }
 @keyframes aparecer {
@@ -207,8 +237,9 @@ main .card-productos .card-text {
 /*card cursos*/
 .cards-cursos img {
   width: 100%;
-  height: 100%;
-  display: block;
+  height: 50%;
+  display: flex;
+  align-items: center;
 }
 .cards-cursos h2 {
   font-size: 30px;
@@ -217,12 +248,24 @@ main .card-productos .card-text {
   text-align: center;
   padding: 10px;
   background-color: rgba(144, 138, 138, 0.39);
+  align-items: center;
 }
 .cards-cursos .card-p {
   font-size: 20px;
   background-color: rgba(144, 138, 138, 0.39);
-  font-family: "poppins";
+  font-family: "roboto";
   text-align: center;
+  align-items: center;
+}
+
+/*botones*/
+.botones {
+  align-items: center;
+  text-align: center;
+  margin: 100px;
+  font-family: "roboto";
+  font-size: 20px;
+  display: block;
 }
 
 /*portada locales*/
@@ -259,7 +302,7 @@ main .local-p {
   padding: 16px;
   border: 4px solid white;
   border-radius: 15px;
-  background-image: radial-gradient(rgb(68, 154, 240), rgb(184, 233, 238));
+  background-color: rgb(213, 206, 158);
 }
 .thumbnails .box-content img {
   width: 50%;
@@ -303,17 +346,55 @@ main .h-informacion {
   text-align: center;
   padding: 10px;
   margin: 10px;
-  font-weight: lighter;
+  font-weight: normal;
+}
+main .formulario {
+  width: 400px;
+  background-color: rgb(31, 66, 130);
+  padding: 20px;
+  margin: auto;
+  font-family: roboto;
+  border-radius: 14px;
+}
+main .formulario h1 {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+main .formulario .text {
+  width: 100%;
+  background-color: rgb(31, 66, 130);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  border: 1.5px solid rgb(7, 4, 68);
+  color: azure;
+}
+main .formulario p {
+  color: aliceblue;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+main .formulario .boton-form {
+  font-family: roboto;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(27, 153, 255);
+  color: aliceblue;
+  padding: 4px;
+  margin: 16px 0px;
 }
 main .redes {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  border: none;
   display: flex;
-  border: 7px solid white;
-  background-image: linear-gradient(rgb(27, 153, 255), rgb(183, 255, 183));
+  background-color: rgb(7, 4, 68);
   aanimation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -374,7 +455,8 @@ main #preguntas {
   font-family: "poppins";
   font-size: 18px;
   color: aliceblue;
-  background-color: #008cff;
+  background-color: rgb(213, 206, 158);
+  margin-top: 50px;
 }
 main .accordion-header {
   font-family: "poppins";
@@ -387,7 +469,7 @@ main .newsletter {
   font-size: 20px;
   font-family: "poppins";
   color: white;
-  background-color: rgb(0, 145, 255);
+  background-color: rgb(7, 4, 68);
   padding: px;
   align-items: center;
   margin: 30px;
@@ -395,7 +477,7 @@ main .newsletter {
   text-align: center;
 }
 main .newsletter :hover {
-  color: orange;
+  color: rgb(213, 206, 158);
 }
 main .newsletter a {
   color: aliceblue;
