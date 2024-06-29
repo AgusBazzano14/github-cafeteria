@@ -65,14 +65,52 @@ main {
         }
 
         .p-costa {
-            font-family: "poppins";
-            font-size: 20px;
-            font: weight 200px;
-            text-align: center;
+            font-family: "roboto";
+            font-weight: bold;
             color: aliceblue;
-            display: flex;
-             
+            align-items: center;
+            text-align: center;
+            padding-inline-end: 100px;
         }
 
+        .p-direction {
+            font-family: "roboto";
+            color: aliceblue;
+            align-items: center;
+            text-align: center;
+            padding-inline-end: 80px;
+        }
+        
+        .p-horarios {
+            font-family: "roboto";
+            font-weight: bold;
+            color: aliceblue;
+            align-items: center;
+            text-align: center;
+            padding-inline-end: 100px;
+        }
+
+        .p-dias {
+            font-family: "roboto";
+            font-weight: bold;
+            color: aliceblue;
+            align-items: center;
+            padding-inline-end: 10px;
+            text-align: center;
+        }
+
+        .p-hora {
+            font-family: "roboto";
+            color: aliceblue;
+            align-items: center;
+            padding-inline-end: 100px;
+            text-align: center;
+        }
 }
 
+
+@media screen and (max-width:570px) {
+    .thumbnails {
+      background-position: 10%;
+    }
+  }
